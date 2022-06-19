@@ -1,0 +1,42 @@
+:root {
+    --ButtonBackgroundColor: #f1f3f0;
+    --ButtonGrey: #656a73;
+    --SigninBackground: #3f83ff;
+    --ColorBlue: #4385f5;
+    --ColorRed: #eb4335;
+    --ColorYellow: #fbbc05;
+    --ColorGreen: #33a852;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: block;
+}
+
+.navbar {
+    border: 1px solid red;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrapper {
+    border: 1px solid rebeccapurple;
+    height: 62.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
